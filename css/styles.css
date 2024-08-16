@@ -21,7 +21,7 @@ Table Of Contents:
 12. Statistics
 13. Download
 14. Footer
-15. Copyend
+15. Copyright
 16. Back To Top Button
 17. Extra Pages
 18. Media Queries
@@ -161,7 +161,7 @@ a.red {
 }
 
 .btn-solid-lg .fab {
-	margin-end: 0.5rem;
+	margin-right: 0.5rem;
 	font-size: 1.25rem;
 	line-height: 0;
 	vertical-align: top;
@@ -244,7 +244,7 @@ a.red {
 .label-control {
 	position: absolute;
 	top: 0.87rem;
-	start: 1.375rem;
+	left: 1.375rem;
 	color: #777;
 	opacity: 1;
 	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
@@ -275,7 +275,7 @@ a.red {
 	width: 100%;
 	padding-top: 1.0625rem;
 	padding-bottom: 0.0625rem;
-	padding-start: 1.3125rem;
+	padding-left: 1.3125rem;
 	border: 1px solid #c4d8dc;
 	border-radius: 0.25rem;
 	background-color: #fff;
@@ -329,7 +329,7 @@ select::-ms-expand {
 	width: 100%;
 	height: 8rem; /* used instead of html rows to normalize height between Chrome and IE/FF */
 	padding-top: 1.25rem;
-	padding-start: 1.3125rem;
+	padding-left: 1.3125rem;
 	border: 1px solid #c4d8dc;
 	border-radius: 0.25rem;
 	background-color: #fff;
@@ -353,7 +353,7 @@ select::-ms-expand {
 
 input[type='checkbox'] {
 	vertical-align: -10%;
-	margin-end: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 /* IE10+ hack to raise checkbox field position compared to the rest of the browsers */
@@ -396,7 +396,7 @@ input[type='checkbox'] {
 .help-block.with-errors .list-unstyled {
 	font-size: 0.75rem;
 	line-height: 1.125rem;
-	text-align: start;
+	text-align: left;
 }
 
 .help-block.with-errors ul {
@@ -572,16 +572,16 @@ input[type='checkbox'] {
 	position: fixed;
 	z-index: 999999;
 	top: 0;
-	end: 0;
+	right: 0;
 	bottom: 0;
-	start: 0;
+	left: 0;
 	background: #f7fafd;
 }
 
 .spinner {
 	position: absolute;
 	top: 50%; /* centers the loading animation vertically one the screen */
-	start: 50%; /* centers the loading animation horizontally one the screen */
+	left: 50%; /* centers the loading animation horizontally one the screen */
 	width: 3.75rem;
 	height: 1.25rem;
 	margin: -0.625rem 0 0 -1.875rem; /* is width and height divided by two */ 
@@ -726,7 +726,7 @@ input[type='checkbox'] {
 .navbar-custom .nav-item .btn-outline-sm {
 	margin-top: 0.125rem;
 	margin-bottom: 1.375rem;
-	margin-start: 0.5rem;
+	margin-left: 0.5rem;
 	border: 0.125rem solid #2196F3;
 	color: #2196F3;
 }
@@ -758,7 +758,7 @@ input[type='checkbox'] {
 
 .navbar-custom button[aria-expanded='true'] .navbar-toggler-awesome.fas.fa-times{
 	display: inline-block;
-	margin-end: 0.125rem;
+	margin-right: 0.125rem;
 }
 
 
@@ -787,9 +787,9 @@ input[type='checkbox'] {
 }
 
 .header .btn-solid-lg {
-	margin-end: 0.5rem;
+	margin-right: 0.5rem;
 	margin-bottom: 1.125rem;
-	margin-start: 0.5rem;
+	margin-left: 0.5rem;
 }
 
 .header .deco-white-circle-1,
@@ -813,9 +813,9 @@ input[type='checkbox'] {
 
 .cards-1 .card {
 	max-width: 11rem;
-	margin-end: auto;
+	margin-right: auto;
 	margin-bottom: 3rem;
-	margin-start: auto;
+	margin-left: auto;
 	padding: 0;
 	border: none;
 	background-color: transparent;
@@ -824,9 +824,9 @@ input[type='checkbox'] {
 .cards-1 .card-image {
 	width: 7.5rem;
 	height: 7.5rem;
-	margin-end: auto;
+	margin-right: auto;
 	margin-bottom: 1.5rem;
-	margin-start: auto;
+	margin-left: auto;
 	border-radius: 50%;
 	background-color: #ebe7fa;
 }
@@ -906,7 +906,7 @@ input[type='checkbox'] {
 }
 
 .basic-1 .list-unstyled .media-body {
-	margin-start: 0.5rem;
+	margin-left: 0.5rem;
 }
 
 
@@ -919,7 +919,7 @@ input[type='checkbox'] {
 	margin: 2.5rem auto;
 	padding: 3rem 1rem;
 	background-color: #fff;
-	text-align: start;
+	text-align: left;
 }
 
 .lightbox-basic .image-container {
@@ -935,7 +935,7 @@ input[type='checkbox'] {
 	width: 2.75rem;
 	margin-top: 0.125rem;
 	margin-bottom: 1rem;
-	margin-start: 0;
+	margin-left: 0;
 	border-top: 0.125rem solid #e0e0e0;
 }
 
@@ -955,7 +955,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .list-unstyled .media-body {
-	margin-start: 0.625rem;
+	margin-left: 0.625rem;
 }
 
 .lightbox-basic .list-unstyled {
@@ -982,7 +982,7 @@ input[type='checkbox'] {
 	display: inline-block;
 	width: auto;
 	height: auto;
-	margin-start: 0.375rem;
+	margin-left: 0.375rem;
 	padding: 1.25rem 2.25rem 1.25rem 2.25rem;
 	border: 0.125rem solid #333;
 	color: #333;
@@ -998,7 +998,7 @@ input[type='checkbox'] {
 .lightbox-basic button.mfp-close.x-button {
 	position: absolute;
 	top: -0.125rem;
-	end: -0.125rem;
+	right: -0.125rem;
 	width: 2.75rem;
 	height: 2.75rem;
 	color: #555;
@@ -1053,7 +1053,7 @@ input[type='checkbox'] {
 
 .tabs .nav-link .fas,
 .tabs .nav-link .far {
-	margin-end: 0.375rem;
+	margin-right: 0.375rem;
 }
 
 .tabs .li-space-lg li {
@@ -1068,7 +1068,7 @@ input[type='checkbox'] {
 }
 
 .tabs .list-unstyled .media-body {
-	margin-start: 0.625rem;
+	margin-left: 0.625rem;
 }
 
 .tabs #tab-1 .list-unstyled {
@@ -1076,7 +1076,7 @@ input[type='checkbox'] {
 }
 
 .tabs #tab-1 .btn-solid-reg {
-	margin-end: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 
@@ -1104,7 +1104,7 @@ input[type='checkbox'] {
 
 .basic-2 .fa-stack {
 	width: 2em;
-	margin-end: 0.625rem;
+	margin-right: 0.625rem;
 	font-size: 1.25rem;
 }
 
@@ -1140,9 +1140,9 @@ input[type='checkbox'] {
 	display: block;
 	width: 100%;
 	max-width: 20rem;
-	margin-end: auto;
+	margin-right: auto;
 	margin-bottom: 5rem;
-	margin-start: auto;
+	margin-left: auto;
 }
 
 
@@ -1178,13 +1178,13 @@ input[type='checkbox'] {
 }
 
 .slider .swiper-button-prev {
-	start: -0.5rem;
+	left: -0.5rem;
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23777777'%2F%3E%3C%2Fsvg%3E");
 	background-size: 1.125rem 1.75rem;
 }
 
 .slider .swiper-button-next {
-	end: -0.5rem;
+	right: -0.5rem;
 	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2028%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23777777'%2F%3E%3C%2Fsvg%3E");
 	background-size: 1.125rem 1.75rem;
 }
@@ -1206,15 +1206,15 @@ input[type='checkbox'] {
 
 .cards-2 .card {
 	max-width: 22rem;
-	margin-end: auto;
+	margin-right: auto;
 	margin-bottom: 4.75rem;
-	margin-start: auto;
+	margin-left: auto;
 	border: 0;
 	background-color: transparent;
 }
 
 .cards-2 .fa-star {
-	margin-end: 0.25rem;
+	margin-right: 0.25rem;
 	color: #ffb30f;
 	font-size: 1.375rem;
 }
@@ -1245,9 +1245,9 @@ input[type='checkbox'] {
 }
 
 .cards-2 .image-container img {
-	margin-end: 1rem;
+	margin-right: 1rem;
 	margin-bottom: 2.5rem;
-	margin-start: 1rem;
+	margin-left: 1rem;
 }
 
 
@@ -1268,9 +1268,9 @@ input[type='checkbox'] {
 .counter #counter .cell {
 	display: inline-block;
 	width: 6.25rem;
-	margin-end: 1.5rem;
+	margin-right: 1.5rem;
 	margin-bottom: 2rem;
-	margin-start: 1.5rem;
+	margin-left: 1.5rem;
 	vertical-align: top;
 }
 
@@ -1331,9 +1331,9 @@ input[type='checkbox'] {
 }
 
 .basic-3 .btn-solid-lg {
-	margin-end: 0.5rem;
+	margin-right: 0.5rem;
 	margin-bottom: 1.125rem;
-	margin-start: 0.5rem;
+	margin-left: 0.5rem;
 }
 
 .basic-3 .deco-white-circle-1,
@@ -1370,7 +1370,7 @@ input[type='checkbox'] {
 .footer .footer-col {
 	display: inline-block;
 	width: 14.5rem;
-    margin-end: 1rem;
+    margin-right: 1rem;
 	margin-bottom: 1.5rem;
     vertical-align: top;
 }
@@ -1391,13 +1391,13 @@ input[type='checkbox'] {
 }
 
 .footer .list-unstyled .media-body {
-	margin-start: 0.625rem;
+	margin-left: 0.625rem;
 }
 
 .footer .fa-stack {
 	width: 2em;
 	margin-bottom: 0.75rem;
-	margin-end: 0.375rem;
+	margin-right: 0.375rem;
 	font-size: 1.25rem;
 }
 
@@ -1421,20 +1421,20 @@ input[type='checkbox'] {
 
 
 /*************************/
-/*     15. Copyend     */
+/*     15. Copyright     */
 /*************************/
-.copyend {
+.copyright {
 	padding-bottom: 0.75rem;
 	background-color: #f7fafd;
 	text-align: center;
 }
 
-.copyend p,
-.copyend a {
+.copyright p,
+.copyright a {
 	color: #999;
 }
 
-.copyend a {
+.copyright a {
 	text-decoration: none;
 }
 
@@ -1445,7 +1445,7 @@ input[type='checkbox'] {
 a.back-to-top {
 	position: fixed;
 	z-index: 999;
-	end: 0.75rem;
+	right: 0.75rem;
 	bottom: 0.75rem;
 	display: none;
 	width: 2.625rem;
@@ -1482,8 +1482,8 @@ a:hover.back-to-top {
 }
 
 .ex-basic-1 .breadcrumbs .fa {
-	margin-end: 0.5rem;
-	margin-start: 0.625rem;
+	margin-right: 0.5rem;
+	margin-left: 0.625rem;
 	font-size: 0.875rem;
 }
 
@@ -1529,7 +1529,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .media-body {
-	margin-start: 0.625rem;
+	margin-left: 0.625rem;
 }
 
 .ex-basic-2 .form-container {
@@ -1554,7 +1554,7 @@ a:hover.back-to-top {
 
 	.header .btn-solid-lg {
 		margin-bottom: 0;
-		margin-start: 0;
+		margin-left: 0;
 	}
 	/* end of header */
 
@@ -1562,8 +1562,8 @@ a:hover.back-to-top {
 	/* Small Features */
 	.cards-1 .card {
 		display: inline-block;
-		margin-end: 1rem;
-		margin-start: 1rem;
+		margin-right: 1rem;
+		margin-left: 1rem;
 		width: 11rem;
 		max-width: 100%;
 		vertical-align: top;
@@ -1574,18 +1574,18 @@ a:hover.back-to-top {
 	/* Description 2 */
 	.tabs .nav-item {
 		width: auto;
-		margin-end: 0.625rem;
+		margin-right: 0.625rem;
 	}
 	/* end of description 2 */
 
 
 	/* Screenshots */
 	.slider .swiper-button-prev {
-		start: -0.625rem;
+		left: -0.625rem;
 	}
 	
 	.slider .swiper-button-next {
-		end: -0.625rem;
+		right: -0.625rem;
 	}
 	/* end of screenshots */
 
@@ -1593,7 +1593,7 @@ a:hover.back-to-top {
 	/* Download */
 	.basic-3 .btn-solid-lg {
 		margin-bottom: 0;
-		margin-start: 0;
+		margin-left: 0;
 	}
 	/* end of download */
 
@@ -1622,8 +1622,8 @@ a:hover.back-to-top {
 	/* General Styles */
 	.p-heading {
 		width: 80%;
-		margin-end: auto;
-		margin-start: auto;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	h1 {
@@ -1694,7 +1694,7 @@ a:hover.back-to-top {
 	.navbar-custom .nav-item .btn-outline-sm {
 		margin-top: 0;
 		margin-bottom: 0;
-		margin-start: 0.625rem;
+		margin-left: 0.625rem;
 	}
 	/* end of navigation */
 
@@ -1713,7 +1713,7 @@ a:hover.back-to-top {
 	.header .deco-white-circle-1 {
 		position: absolute;
 		top: 26rem;
-		start: -12rem;
+		left: -12rem;
 		display: block;
 		width: 22rem;
 		height: 22rem;
@@ -1722,7 +1722,7 @@ a:hover.back-to-top {
 	.header .deco-white-circle-2 {
 		position: absolute;
 		top: 19rem;
-		end: -12rem;
+		right: -12rem;
 		display: block;
 		width: 20rem;
 		height: 20rem;
@@ -1731,7 +1731,7 @@ a:hover.back-to-top {
 	.header .deco-blue-circle {
 		position: absolute;
 		top: 34rem; /* top: 28rem; */
-		end: 5rem; /* start: 5rem; */
+		right: 5rem; /* left: 5rem; */
 		display: block;
 		width: 5rem;
 		height: 5rem;
@@ -1740,7 +1740,7 @@ a:hover.back-to-top {
 	.header .deco-yellow-circle {
 		position: absolute;
 		top: 9rem;
-		end: 7rem;
+		right: 7rem;
 		display: block;
 		width: 1.5rem;
 		height: 1.5rem;
@@ -1749,7 +1749,7 @@ a:hover.back-to-top {
 	.header .deco-green-diamond {
 		position: absolute;
 		top: 18rem; /* top: 9rem; */
-		end: 12rem; /* start: 4rem; */
+		right: 12rem; /* left: 4rem; */
 		display: block;
 		width: 1rem;
 		height: 1rem;
@@ -1771,7 +1771,7 @@ a:hover.back-to-top {
 
 	.lightbox-basic .image-container {
 		margin-bottom: 0;
-		text-align: start;
+		text-align: left;
 	}
 	/* end of description 1 details lightbox */
 
@@ -1801,7 +1801,7 @@ a:hover.back-to-top {
 	}
 	
 	.basic-2 .fa-stack {
-		margin-end: 1rem;
+		margin-right: 1rem;
 		font-size: 2.25rem;
 	}
 
@@ -1811,12 +1811,12 @@ a:hover.back-to-top {
 
 	.basic-2 .first .fa-stack {
 		position: absolute;
-		end: 0;
+		right: 0;
 	}
 
 	.basic-2 .first .media-body {
 		max-width: 12.625rem;
-		text-align: end;
+		text-align: right;
 	}
 
 	.basic-2 img {
@@ -1828,11 +1828,11 @@ a:hover.back-to-top {
 	
 	/* Screenshots */
 	.slider .swiper-button-prev {
-		start: 0;
+		left: 0;
 	}
 	
 	.slider .swiper-button-next {
-		end: 0;
+		right: 0;
 	}
 	/* end of screenshots */
 
@@ -1842,17 +1842,17 @@ a:hover.back-to-top {
 		display: inline-block;
 		width: 18.125rem;
 		max-width: 100%;
-		margin-end: 0.5rem;
-		margin-start: 0.5rem;
+		margin-right: 0.5rem;
+		margin-left: 0.5rem;
 		vertical-align: top;
 	}
 
 	.cards-2 .card:first-of-type {
-		margin-start: 0;
+		margin-left: 0;
 	}
 
 	.cards-2 .card:last-of-type {
-		margin-end: 0;
+		margin-right: 0;
 	}
 	/* end of testimonials */
 
@@ -1876,14 +1876,14 @@ a:hover.back-to-top {
 	/* Download */
 	.basic-3 .p-large {
 		width: 51rem;
-		margin-end: auto;
-		margin-start: auto;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.basic-3 .deco-white-circle-1 {
 		position: absolute;
 		top: 23rem;
-		start: -12rem;
+		left: -12rem;
 		display: block;
 		width: 20rem;
 		height: 20rem;
@@ -1892,7 +1892,7 @@ a:hover.back-to-top {
 	.basic-3 .deco-white-circle-2 {
 		position: absolute;
 		top: 7rem;
-		end: -12.5rem;
+		right: -12.5rem;
 		display: block;
 		width: 20rem;
 		height: 20rem;
@@ -1901,7 +1901,7 @@ a:hover.back-to-top {
 	.basic-3 .deco-blue-circle {
 		position: absolute;
 		top: 15rem;
-		end: 5rem;
+		right: 5rem;
 		display: block;
 		width: 5rem;
 		height: 5rem;
@@ -1910,7 +1910,7 @@ a:hover.back-to-top {
 	.basic-3 .deco-yellow-circle {
 		position: absolute;
 		top: 31rem;
-		start: 6.5rem;
+		left: 6.5rem;
 		display: block;
 		width: 2.5rem;
 		height: 2.5rem;
@@ -1919,7 +1919,7 @@ a:hover.back-to-top {
 	.basic-3 .deco-green-diamond {
 		position: absolute;
 		top: 8rem;
-		end: 12.5rem;
+		right: 12.5rem;
 		display: block;
 		width: 1rem;
 		height: 1rem;
@@ -1942,8 +1942,8 @@ a:hover.back-to-top {
 	/* Extra Pages */
 	.ex-header h1 {
 		width: 80%;
-		margin-end: auto;
-		margin-start: auto;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.ex-basic-2 {
@@ -1961,40 +1961,40 @@ a:hover.back-to-top {
 	.header .image-container {
 		width: 58.0625rem;
 		height: 36.125rem;
-		margin-end: auto;
-		margin-start: auto;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.header .deco-white-circle-1 {
 		top: 14rem;
-		start: -27rem;
+		left: -27rem;
 		width: 40rem;
 		height: 40rem;
 	}
 
 	.header .deco-white-circle-2 {
-		end: -15rem;
+		right: -15rem;
 		width: 25.5rem;
 		height: 25.5rem;
 	}
 
 	.header .deco-blue-circle {
 		top: 35rem; /* 29rem; */
-		end: 5%; /* start: 10rem; */
+		right: 5%; /* left: 10rem; */
 		width: 6rem;
 		height: 6rem;
 	}
 
 	.header .deco-yellow-circle {
 		top: 13.5rem;
-		end: 8%;
+		right: 8%;
 		width: 2.5rem;
 		height: 2.5rem;
 	}
 
 	.header .deco-green-diamond {
 		top: 18rem; /* 7rem */
-		end: 7%; /* start: 18%; */
+		right: 7%; /* left: 18%; */
 		width: 1.25rem;
 		height: 1.25rem;
 	}
@@ -2003,46 +2003,46 @@ a:hover.back-to-top {
 
 	/* Small Features */
 	.cards-1 .card:first-of-type {
-		margin-start: 0;
+		margin-left: 0;
 	}
 	
 	.cards-1 .card:last-of-type {
-		margin-end: 0;
+		margin-right: 0;
 	}
 	/* end of small features */
 
 
 	/* Description 1 */
 	.basic-1 .image-container {
-		margin-start: 6rem; /* margin-end: 2.5rem; */
+		margin-left: 6rem; /* margin-right: 2.5rem; */
 		width: 31.0625rem;
 		height: 36.625rem;
 	}
 
 	.basic-1 .text-container {
 		margin-top: 5rem;
-		margin-start: 2.5rem;
+		margin-left: 2.5rem;
 	}
 	/* end of description 1 */
 
 
 	/* Dscription 1 Details Lightbox */
 	.lightbox-basic .image-container {
-		margin-end: 1.5rem;
+		margin-right: 1.5rem;
 	}
 	/* end of description 1 details lightbox */
 
 
 	/* Description 2 */
 	.tabs .image-container {
-		margin-start: 2.5rem;
+		margin-left: 2.5rem;
 		width: 31.0625rem;
 		height: 36.625rem;
 	}
 
 	.tabs .tabs-container {
 		margin-top: 6rem;
-		margin-end: 2.5rem;
+		margin-right: 2.5rem;
 	}
 	/* end of description 2 */
 
@@ -2058,8 +2058,8 @@ a:hover.back-to-top {
 
 	.basic-2 .first .media-body {
 		max-width: 16.375rem;
-		margin-end: 5.75rem;
-		margin-start: auto;
+		margin-right: 5.75rem;
+		margin-left: auto;
 	}
 
 	.basic-2 img {
@@ -2075,13 +2075,13 @@ a:hover.back-to-top {
 	}
 
 	.slider .swiper-button-prev {
-		start: -2.25rem;
+		left: -2.25rem;
 		width: 1.375rem;
 		background-size: 1.375rem 2.125rem;
 	}
 	
 	.slider .swiper-button-next {
-		end: -2.25rem;
+		right: -2.25rem;
 		width: 1.375rem;
 		background-size: 1.375rem 2.125rem;
 	}
@@ -2091,21 +2091,21 @@ a:hover.back-to-top {
 	/* Testimonials */
 	.cards-2 .card {
 		width: 21rem;
-		margin-end: 1.375rem;
-		margin-start: 1.375rem;
+		margin-right: 1.375rem;
+		margin-left: 1.375rem;
 	}
 
 	.cards-2 .image-container img {
-		margin-end: 1.25rem;
-		margin-start: 1.25rem;
+		margin-right: 1.25rem;
+		margin-left: 1.25rem;
 	}
 	/* end of testimonials */
 
 
 	/* Statistics */
 	.counter #counter .cell {
-		margin-end: 2.375rem;
-		margin-start: 2.375rem;
+		margin-right: 2.375rem;
+		margin-left: 2.375rem;
 	}
 	/* end of statistics */
 
@@ -2114,41 +2114,41 @@ a:hover.back-to-top {
 	.basic-3 .image-container {
 		width: 57.8125rem;
 		height: 36.0625rem;
-		margin-end: auto;
-		margin-start: auto;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.basic-3 .deco-white-circle-1 {
 		top: 20rem;
-		start: -18rem;
+		left: -18rem;
 		width: 30rem;
 		height: 30rem;
 	}
 
 	.basic-3 .deco-white-circle-2 {
 		top: 3rem;
-		end: -20rem;
+		right: -20rem;
 		width: 30rem;
 		height: 30rem;
 	}
 
 	.basic-3 .deco-blue-circle {
 		top: 17rem;
-		end: 7rem;
+		right: 7rem;
 		width: 6rem;
 		height: 6rem;
 	}
 
 	.basic-3 .deco-yellow-circle {
 		top: 33rem;
-		start: 10rem;
+		left: 10rem;
 		width: 3.5rem;
 		height: 3.5rem;
 	}
 
 	.basic-3 .deco-green-diamond {
 		top: 5rem;
-		end: 25%;
+		right: 25%;
 		width: 1.5rem;
 		height: 1.5rem;
 	}
@@ -2159,28 +2159,28 @@ a:hover.back-to-top {
 	.footer .footer-col.first {
 		display: inline-block;
 		width: 14rem;
-		margin-end: 2.5rem;
+		margin-right: 2.5rem;
 	}
 	
 	.footer .footer-col.second {
 		width: 14rem;
-		margin-end: 2.25rem;
+		margin-right: 2.25rem;
 	}
 
 
 	.footer .footer-col.third,
 	.footer .footer-col.fourth {
 		width: 8.5rem;
-		margin-end: 3.25rem;
+		margin-right: 3.25rem;
 	}
 
 	.footer .fa-stack:last-of-type {
-		margin-end: 0;
+		margin-right: 0;
 	}
 
 	.footer .footer-col.fifth {
 		width: 12rem;
-		margin-end: 0;
+		margin-right: 0;
 	}
 	/* end of footer */
 
@@ -2188,16 +2188,16 @@ a:hover.back-to-top {
 	/* Extra Pages */
 	.ex-header h1 {
 		width: 60%;
-		margin-end: auto;
-		margin-start: auto;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.ex-basic-2 .form-container {
-		margin-start: 1.75rem;
+		margin-left: 1.75rem;
 	}
 
 	.ex-basic-2 .image-container-small {
-		margin-start: 1.75rem;
+		margin-left: 1.75rem;
 	}
 	/* end of extra pages */
 }
