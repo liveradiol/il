@@ -396,7 +396,7 @@ input[type='checkbox'] {
 .help-block.with-errors .list-unstyled {
 	font-size: 0.75rem;
 	line-height: 1.125rem;
-	text-align: left;
+	text-align: start;
 }
 
 .help-block.with-errors ul {
@@ -1816,7 +1816,7 @@ a:hover.back-to-top {
 
 	.basic-2 .first .media-body {
 		max-width: 12.625rem;
-		text-align: right;
+		text-align: end;
 	}
 
 	.basic-2 img {
@@ -2058,8 +2058,8 @@ a:hover.back-to-top {
 
 	.basic-2 .first .media-body {
 		max-width: 16.375rem;
-		margin-right: 5.75rem;
-		margin-left: auto;
+		margin-end: 5.75rem;
+		margin-start: auto;
 	}
 
 	.basic-2 img {
