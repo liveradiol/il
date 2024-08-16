@@ -396,7 +396,7 @@ input[type='checkbox'] {
 .help-block.with-errors .list-unstyled {
 	font-size: 0.75rem;
 	line-height: 1.125rem;
-	text-align: start;
+	text-align: left;
 }
 
 .help-block.with-errors ul {
@@ -906,7 +906,7 @@ input[type='checkbox'] {
 }
 
 .basic-1 .list-unstyled .media-body {
-	margin-start: 0.5rem;
+	margin-left: 0.5rem;
 }
 
 
@@ -955,7 +955,7 @@ input[type='checkbox'] {
 }
 
 .lightbox-basic .list-unstyled .media-body {
-	margin-start: 0.625rem;
+	margin-left: 0.625rem;
 }
 
 .lightbox-basic .list-unstyled {
@@ -1068,7 +1068,7 @@ input[type='checkbox'] {
 }
 
 .tabs .list-unstyled .media-body {
-	margin-start: 0.625rem;
+	margin-left: 0.625rem;
 }
 
 .tabs #tab-1 .list-unstyled {
@@ -1104,7 +1104,7 @@ input[type='checkbox'] {
 
 .basic-2 .fa-stack {
 	width: 2em;
-	margin-end: 0.625rem;
+	margin-right: 0.625rem;
 	font-size: 1.25rem;
 }
 
@@ -1140,9 +1140,9 @@ input[type='checkbox'] {
 	display: block;
 	width: 100%;
 	max-width: 20rem;
-	margin-end: auto;
+	margin-right: auto;
 	margin-bottom: 5rem;
-	margin-start: auto;
+	margin-left: auto;
 }
 
 
@@ -1391,7 +1391,7 @@ input[type='checkbox'] {
 }
 
 .footer .list-unstyled .media-body {
-	margin-start: 0.625rem;
+	margin-left: 0.625rem;
 }
 
 .footer .fa-stack {
@@ -1529,7 +1529,7 @@ a:hover.back-to-top {
 }
 
 .ex-basic-2 .list-unstyled .media-body {
-	margin-start: 0.625rem;
+	margin-left: 0.625rem;
 }
 
 .ex-basic-2 .form-container {
@@ -1801,7 +1801,7 @@ a:hover.back-to-top {
 	}
 	
 	.basic-2 .fa-stack {
-		margin-end: 1rem;
+		margin-right: 1rem;
 		font-size: 2.25rem;
 	}
 
@@ -1811,12 +1811,12 @@ a:hover.back-to-top {
 
 	.basic-2 .first .fa-stack {
 		position: absolute;
-		end: 0;
+		right: 0;
 	}
 
 	.basic-2 .first .media-body {
 		max-width: 12.625rem;
-		text-align: end;
+		text-align: right;
 	}
 
 	.basic-2 img {
@@ -2058,8 +2058,8 @@ a:hover.back-to-top {
 
 	.basic-2 .first .media-body {
 		max-width: 16.375rem;
-		margin-end: 5.75rem;
-		margin-start: auto;
+		margin-right: 5.75rem;
+		margin-left: auto;
 	}
 
 	.basic-2 img {
